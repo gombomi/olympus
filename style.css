@@ -1,0 +1,32 @@
+body{
+        font-family: cursive;
+        }
+a{
+        color: black;
+        text-decoration: none;
+        }
+ol{
+        font: 15px fantasy;
+        border-right: 2px solid gray;
+        padding: 42px;
+        margin: 0px;
+        }
+h1{
+        text-align: center;
+        font: 70px fantasy;
+        border-bottom: 2px solid gray;
+        padding: 33px;
+        margin: 0px;
+        }
+h2{
+        font: 30px fantasy;
+        margin: 0px;
+        }
+#grid{
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        }
+#grid #article{
+        padding: 30px;
+        text-align: justify;
+        }
